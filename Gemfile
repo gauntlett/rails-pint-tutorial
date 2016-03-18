@@ -19,6 +19,10 @@ gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
 gem 'aws-sdk-v1'
 
+#pagination
+gem 'will_paginate', '~> 3.1'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
+
 group :production do
   gem 'rails_12factor'
   gem 'pg'
